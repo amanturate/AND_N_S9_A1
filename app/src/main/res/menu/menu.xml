@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/itm"
+        android:title="TEXT_COLOR">
+
+            <menu>
+                <group android:id="@+id/gp1"
+                    android:checkableBehavior="single">
+                    <item android:id="@+id/sitm1"
+                        android:title="Orange" />
+                    <item android:id="@+id/sitm2"
+                        android:title="Red" />
+                    <item android:id="@+id/sitm3"
+                        android:title="Green" />
+                </group>
+            </menu>
+
+    </item>
+
+</menu>
